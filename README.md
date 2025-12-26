@@ -72,7 +72,7 @@ Bash-based tool to securely encrypt and decrypt files using Linux shell scriptin
 
 ## 🌐 Live Portfolio
 
-👉 **Website:** *(add your deployed link here later)*  
+👉 **Website:** https://eswar-portfolio-eight.vercel.app/
 👉 **GitHub:** https://github.com/eswar34
 
 ---
