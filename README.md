@@ -73,14 +73,14 @@ Bash-based tool to securely encrypt and decrypt files using Linux shell scriptin
 ## 🌐 Live Portfolio
 
 👉 **Website:** *(add your deployed link here later)*  
-👉 **GitHub:** https://github.com/YOUR_GITHUB_USERNAME  
+👉 **GitHub:** https://github.com/eswar34
 
 ---
 
 ## 📬 Contact
 
 - **Email:** keswar431@gmail.com  
-- **LinkedIn:** https://linkedin.com/in/YOUR_LINKEDIN_USERNAME  
+- **LinkedIn:** https://linkedin.com/in/eswar-504a1129b
 
 ---
 
