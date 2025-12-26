@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Eswar Kumar – Cybersecurity Portfolio
 
-## Getting Started
+This is my personal portfolio website showcasing my journey, skills, and projects in **Cybersecurity and SOC Analysis**.
 
-First, run the development server:
+The portfolio highlights my hands-on projects, certifications, and professional focus areas in a clean, modern, and responsive design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👨‍💻 About Me
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I am an aspiring **SOC Analyst and Cybersecurity Graduate** with practical experience in:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Security monitoring and alert analysis
+- Linux system analysis
+- Bash and Python scripting
+- Networking and security fundamentals
+- Log analysis and incident triage
 
-## Learn More
+I am passionate about defending systems, learning continuously, and building real-world security solutions.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Skills & Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Cybersecurity**: SOC fundamentals, alert analysis, threat detection  
+- **Programming**: Python, Bash, SQL  
+- **Operating Systems**: Linux  
+- **Networking**: TCP/IP, DNS, HTTP/HTTPS  
+- **Tools & Concepts**: Log analysis, automation, basic SIEM concepts  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Featured Projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔐 SOC Alert Detection System
+Python-based system to simulate SOC alert detection by analyzing logs and identifying suspicious activities.
+
+**Tech Used:** Python, Log Analysis, SOC Concepts  
+
+---
+
+### 🧮 SQL Fraud Detection
+Anomaly and fraud detection system using SQL queries to identify abnormal transaction patterns.
+
+**Tech Used:** Python, SQL, Data Analysis  
+
+---
+
+### 🌐 Network Risk Assessment
+Web-based project to analyze basic network security risks and identify potential misconfigurations.
+
+**Tech Used:** HTML, Networking, Cybersecurity  
+
+---
+
+### 🔑 Encryption & Decryption Tool (Bash)
+Bash-based tool to securely encrypt and decrypt files using Linux shell scripting.
+
+**Tech Used:** Bash, Linux, Cryptography  
+
+---
+
+## 🎓 Certifications
+
+- **Google Cybersecurity Professional Certificate** ⭐  
+- Cyber Security Internship – Palo Alto Networks  
+- Ethical Hacker Internship – EduSkills Academy  
+- Ethical Hacker – Cisco  
+- Python Essentials – Cisco  
+
+---
+
+## 🌐 Live Portfolio
+
+👉 **Website:** *(add your deployed link here later)*  
+👉 **GitHub:** https://github.com/YOUR_GITHUB_USERNAME  
+
+---
+
+## 📬 Contact
+
+- **Email:** keswar431@gmail.com  
+- **LinkedIn:** https://linkedin.com/in/YOUR_LINKEDIN_USERNAME  
+
+---
+
+## 📌 Note
+
+This portfolio is built using **Next.js** and focuses on clarity, performance, and professional presentation.
+
+Thank you for visiting my portfolio 🙌
