@@ -1,0 +1,104 @@
+:root {
+  --font-body: var(--font-inter);
+  --font-heading: var(--font-playfair);
+}
+
+
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-body), sans-serif;
+}
+h1, h2, h3 {
+  font-family: var(--font-heading), serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #000 !important; /* 🔥 force black */
+  color: #fff;
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+/* ===== MOTION SYSTEM ===== */
+.motion {
+  opacity: 0;
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.motion.show {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* ===== CARD HOVER ===== */
+.card-hover {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(167, 139, 250, 0.25);
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #a78bfa;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 120px;
+}
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  /* HERO LAYOUT */
+  #home > div {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+
+  /* HERO TITLE */
+  #home h1 {
+    font-size: 44px !important;
+    line-height: 1.1;
+  }
+
+  /* HERO NAME */
+  #home h2 {
+    font-size: 18px;
+  }
+
+  /* HERO ICON BUTTONS */
+  #home .hero-btn {
+    justify-content: center;
+  }
+
+  /* CENTER HERO TEXT */
+  #home div:first-child {
+    text-align: center;
+  }
+}

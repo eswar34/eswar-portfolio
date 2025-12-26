@@ -1,0 +1,21 @@
+{
+  "name": "eswar-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.344.0",
+    "next": "^14.2.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.0.3",
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
