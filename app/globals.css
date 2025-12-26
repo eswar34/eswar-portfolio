@@ -101,4 +101,122 @@ section {
   #home div:first-child {
     text-align: center;
   }
+  /* ===== EXTRA MOBILE OPTIMIZATION (SAFE ADDITIONS) ===== */
+@media (max-width: 768px) {
+
+  /* REDUCE SECTION PADDING */
+  section {
+    padding: 64px 16px;
+    scroll-margin-top: 160px;
+  }
+
+  /* FORCE ALL GRIDS TO SINGLE COLUMN */
+  #whatido > div,
+  #projects > div,
+  #certifications > div {
+    grid-template-columns: 1fr !important;
+    gap: 28px;
+  }
+
+  /* ADD SIDE SPACING TO CARDS */
+  .card-hover {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* PREVENT NAVBAR OVERFLOW */
+  nav {
+    max-width: calc(100% - 20px);
+  }
+
+  /* SMALLER TEXT ON VERY SMALL DEVICES */
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
 }
+/* ===== MOTION MOBILE OPTIMIZATION (SAFE) ===== */
+@media (max-width: 768px) {
+  /* Reduce motion distance on mobile for smoothness */
+  .motion,
+  [style*="translate"] {
+    will-change: transform, opacity;
+  }
+
+  /* Optional: softer animation feel on mobile */
+  * {
+    scroll-behavior: smooth;
+  }
+}
+/* ===== NAVBAR MOBILE OPTIMIZATION (SAFE) ===== */
+@media (max-width: 768px) {
+
+  /* NAVBAR CONTAINER */
+  nav {
+    max-width: calc(100% - 16px);
+  }
+
+  /* INNER NAV */
+  nav > div {
+    padding: 10px 14px !important;
+    gap: 14px !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* LINKS WRAPPER */
+  nav a {
+    font-size: 13px !important;
+  }
+
+  /* CTA BUTTON */
+  nav a[href="#contact"] {
+    padding: 6px 14px !important;
+    font-size: 13px !important;
+  }
+}
+/* ===== CONTACT SECTION MOBILE FIX ===== */
+@media (max-width: 768px) {
+
+  /* FORCE CONTACT SECTION STACK */
+  #contact > div {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 32px !important;
+  }
+
+  /* CENTER TEXT CONTENT */
+  #contact {
+    text-align: center;
+  }
+
+  /* FIX CONTACT CARD */
+  #contact .card-hover {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* FIX BUTTON STACKING */
+  #contact button,
+  #contact a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* PREVENT OVERFLOW */
+  #contact * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+
+
+  
+}
+

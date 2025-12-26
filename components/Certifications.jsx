@@ -1,9 +1,11 @@
+"use client";
+
 import Motion from "./Motion";
 import Image from "next/image";
 
 export default function Certifications() {
   return (
-    <section id="certifications">
+    <section id="certifications" style={styles.section}>
       <h2 style={styles.heading}>
         <span style={styles.line}>—</span> Certifications
       </h2>
@@ -136,19 +138,26 @@ export default function Certifications() {
 /* ================= STYLES ================= */
 
 const styles = {
+  section: {
+    maxWidth: "1200px",
+    margin: "0 auto",
+    padding: "100px 24px",
+  },
+
   heading: {
     fontSize: "28px",
     marginBottom: "60px",
     display: "flex",
     gap: "12px",
+    justifyContent: "center",
   },
 
   line: { color: "#a78bfa" },
 
   grid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-    gap: "36px",
+    gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+    gap: "40px",
   },
 
   card: {
@@ -179,7 +188,6 @@ const styles = {
     opacity: 0.9,
   },
 
-  /* 🔥 PREVENT STRETCH */
   logo: {
     width: "auto",
     height: "28px",
